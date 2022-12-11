@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "s3_bucket" {
 resource "aws_s3_bucket_acl" "acl_bucket" {
   bucket = aws_s3_bucket.s3_bucket.id
   acl    = var.acl
-  versioning {
-    enabled = var.versioning
+  #versioning {
+  #  enabled = var.versioning
   }
 }

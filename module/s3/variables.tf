@@ -7,7 +7,7 @@ variable "acl" {
   default = "private"
 }
 
-variable "versioning" {
-  type    = bool
-  default = false
-}
+#variable "versioning" {
+#  type    = bool
+#  default = false
+#}
