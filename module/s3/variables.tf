@@ -8,6 +8,6 @@ variable "acl" {
 }
 
 variable "versioning" {
-  type    = boolean
+  type    = bool
   default = false
 }
