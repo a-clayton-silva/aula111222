@@ -8,4 +8,3 @@ resource "aws_s3_bucket_acl" "acl_bucket" {
   #versioning {
   #  enabled = var.versioning
   }
-}
